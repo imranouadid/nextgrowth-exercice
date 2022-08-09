@@ -1,8 +1,18 @@
 # Express JS API with MongoDB
 ## Requirements
-You need to install this dependencies on your machine:
+You need to install these dependencies below on your machine.
 - Node JS
 - MongoDB server
+
+## Start MongoDB server
+The commands listed below are only for Linux users. 
+```bash
+# Start MongoDB server
+$ sudo systemctl start mongod
+
+# Check if your MongoDB server is running or not.
+$ sudo systemctl status mongod
+```
 
 ## How To Use
 
